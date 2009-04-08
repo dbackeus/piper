@@ -1,0 +1,4 @@
+= Set it up
+
+  sudo rake gem:install
+  script/server
