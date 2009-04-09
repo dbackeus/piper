@@ -1,5 +1,5 @@
 class PipeEntriesController < ApplicationController
   def index
-    @entries = PipeEntry.all
+    @entries = Pipe.find(params[:pipe_id]).entries
   end
 end
