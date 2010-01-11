@@ -1,5 +1,14 @@
+body {
+  font-family: Helvetica, Arial;
+}
+
+.pipe_entry {
+  padding: 5px;
+  margin: 10px;
+}
+
 .diktafonen {
-  background: yellow;
+  background: #ff90ff;
 }
 
 .youtube {
